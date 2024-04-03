@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.img-bike {
+  width: 420px;
+  height: 300px;
+  border-radius: 3px;
+}
+
+.text {
+  padding: 20px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.price-bike {
+  background-color: rgb(194, 189, 189);
+  width: 45px;
+}
+
+.buy-button {
+  background-color: rgb(185, 122, 245);
+  text-decoration: none;
+  width: 65px;
+}
+
+.price-bike,
+.buy-button {
+  color: #111;
+  padding: 8px;
+  border-radius: 3px;
+}
